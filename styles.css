@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 20px solid rgb(245, 210, 222);
+    background-color: rgb(255, 248, 250);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    display: inline-block;
+    flex-wrap:nowrap;
+    margin: 20px;
+}
+nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color:black;
+}
+.me {
+    border: 10px solid rgb(245, 210, 222);
+    border-radius: 100%;
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+}
+.media a{
+    color: rgb(245, 210, 222);
+    font-size: 30px;
+    text-decoration: none;
+}
+.media a:hover{
+    color: lavender;
+}
+section{
+    width: 70%;
+    margin: auto;
+}
+.borders{
+    border:4px solid rgb(245, 210, 222);
+}
+#splash{
+    background:linear-gradient(rgba(255, 255, 255,0.7), rgba(255, 248, 250)), url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F25084.jpg&f=1&nofb=1&ipt=d8b101e495d6002d56c747bba451371c0a3dd9d8e36b0af2c1e7c4da9ef1efcb&ipo=images');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+    background-size: cover;
+    padding-bottom: 40px;
+}
