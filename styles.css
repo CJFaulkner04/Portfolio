@@ -56,11 +56,3 @@ section{
     background-size: cover;
     padding-bottom: 40px;
 }
-a{
-    color: rgb(245, 210, 222);
-    text-decoration: none;
-}
-
-a:hover{
-    color: lavender;
-}
